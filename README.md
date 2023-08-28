@@ -1,26 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Overview
 
-## Getting Started
+Crypto webiste is built using Next.js, a React framework for server-side rendering and static site generation. It is typed with Typescript and styled using Ant Design component library. Bringing a responsive, customizable layouts and components out of the box.
 
-First, run the development server:
+For state management, Redux-toolkits is chosen because of intergration of both fetching and global state mangement in one place which quite sort well with custom hooks for a multiple API project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+The intuitive chart UI is powered by Apexchart, a React component library designed for building charts. It provides responsive, customizable styles and indexes.
+
+Together, althought the Next.Js has release stable app dir, this project is pureposely build on pages dir which works well with the needs of mainly interactive-focus on client site projects while maintain cutting-edge features and performance optimizations on routing and static rendering.
+
+### Key Features
+
+1. Listing and Searching 
+   Find a crypto's stock market info easily with search input while browsing the top list of all crypto stock indexes
+2. Responsive
+   Fully responsive design optimized for all devices
+3. ApexChart
+   Using ApexChart in order to display statistical data in chronological order
+4. SSG and SSR
+   The project supports both prefetched data on static routing as well as real-time datas when searching in order to create dynamic routing whichs ensures a sleek and responsive experience.
+
+### Installation
+
+Clone this repo and install all dependencies
+
+```
+git clone https://github.com/Antonio0402/crypto-nextjs-project.git
+
+cd crypto-nextjs-project
+
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshot
+
+![Desktop Design](./screenshots/desktop-design.png)
 
 ## Learn More
 
