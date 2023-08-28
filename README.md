@@ -11,7 +11,7 @@ Together, althought the Next.Js has release stable app dir, this project is pure
 ### Key Features
 
 1. Listing and Searching 
-   Find a crypto's stock market info easily with search input while browsing the top list of all crypto stock indexes
+   Find a crypto currency's stock market info easily with search input while browsing the top list of all crypto currencies stock index
 2. Responsive
    Fully responsive design optimized for all devices
 3. ApexChart
