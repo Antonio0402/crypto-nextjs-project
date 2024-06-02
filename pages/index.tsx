@@ -83,7 +83,7 @@ export default function Home({
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
   const res = await fetch(
-    `${process.env.CRYPTO_API_URL}/coins?limit=${count}`,
+    `${process.env.NEXT_PUBLIC_CRYPTO_API_URL}/coins?limit=${count}`,
     {
       method: "GET",
       headers: {
