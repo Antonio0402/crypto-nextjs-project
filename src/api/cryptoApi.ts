@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const cryptoApiHeaders = {
-  "X-RapidAPI-Key": process.env.RAPIDAPI_KEY,
-  "X-RapidAPI-Host": process.env.CRYPTO_RAPIDAPI_HOST,
+  "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPIDAPI_KEY,
+  "X-RapidAPI-Host": process.env.NEXT_PUBLIC_CRYPTO_RAPIDAPI_HOST,
 };
 
 const createRequest = (url: string) => ({ url, headers: cryptoApiHeaders });
